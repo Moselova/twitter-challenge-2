@@ -1,0 +1,87 @@
+* {
+	margin: auto;
+}
+/* navbar section */
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 10px;
+}
+nav {
+	display: flex;
+	gap: 30px;
+}
+.ssb-div {
+	display: flex;
+	gap: 30px;
+}
+
+.main {
+	display: grid;
+	place-items: center;
+}
+.first-h {
+	width: 1068px;
+	height: 250px;
+	text-align: center;
+}
+h2 {
+	font-weight: 600;
+	font-size: 80px;
+	color: #292929;
+	line-height: 156.7%;
+}
+.first-p {
+	width: 926px;
+	height: 88px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 156.7%;
+}
+
+.slide-show {
+	display: flex;
+	gap: 20px;
+	width: 90%;
+	overflow: auto;
+	overflow-y: hidden;
+	scroll-behavior: smooth;
+}
+.featured-prod {
+	margin-top: 50px;
+	width: 90%;
+}
+hr {
+    margin-bottom: 50px;
+    border: 0.5px solid #333333;
+}
+h3 {
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 65px;
+}
+.rectangle {
+	display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+   
+}
+h4 {
+	font-weight: 700;
+	font-size: 40px;
+    margin-bottom: 40px;
+}
+.lorem {
+    margin-bottom: 40px;
+}
+.faces {
+    display: flex;
+}

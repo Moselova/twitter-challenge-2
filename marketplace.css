@@ -1,0 +1,24 @@
+* {
+	margin: auto;
+}
+/* navbar section */
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 10px;
+}
+nav {
+	display: flex;
+	gap: 30px;
+}
+.ssb-div {
+	display: flex;
+	gap: 30px;
+}
