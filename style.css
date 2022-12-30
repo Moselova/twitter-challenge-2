@@ -14,15 +14,18 @@
 	width: 100%;
 	padding: 10px;
 }
-nav {
-	display: flex;
-	gap: 30px;
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: black;
 }
 .ssb-div {
 	display: flex;
 	gap: 30px;
 }
-
+/* main -ctn */
 .main {
 	display: grid;
 	place-items: center;
@@ -80,6 +83,7 @@ h4 {
 }
 .window {
 	position: relative;
+	cursor: pointer;
 }
 .overlay {
 	transition: 0.5s ease;
